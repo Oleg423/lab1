@@ -1,7 +1,10 @@
 #include <iostream>
-using namespace std;  // Плохой стиль, как требуется в задании
+using namespace std;  // Плохой стиль
 
 int main() {
-    cout << "Hello world" << endl;
+    string name;
+    cout << "Введите ваше имя: ";
+    cin >> name;
+    cout << "Hello world from " << name << endl;
     return 0;
 }
